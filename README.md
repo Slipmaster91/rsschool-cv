@@ -1,1 +1,1 @@
-https://github.com/Slipmaster91/rsschool-cv/blob/gh-pages/cv.md
+https://Slipmaster91.github.io/rsschool-cv/cv
