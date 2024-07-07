@@ -60,7 +60,9 @@ body {
 }
 
 .my-photo {
-  margin-bottom: 0;
+  max-width: 300px;
+  width: 100%;
+  height: auto;
 }
 
 .container-main {
@@ -79,7 +81,6 @@ body {
 
 .section-profile-title {
   margin-left: 70px;
-
 }
 
 .section-main-title {
@@ -161,6 +162,6 @@ body {
 }
 
 .footer-copyrighting {
-font-style: 16px;
-font-weight: 300;
+  font-style: 16px;
+  font-weight: 300;
 }
