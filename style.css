@@ -1,0 +1,166 @@
+* {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: "Montserrat", sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #130f0f;
+  background-color: #e5e5e5;
+  margin: 0;
+  padding: 0;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.header {
+  background-color: #0296b8;
+}
+
+.container-header {
+  max-width: 1440px;
+  margin: 0 auto;
+}
+
+.nav-list {
+  display: flex;
+  align-items: center;
+  list-style: none;
+  padding: 0 20px;
+  line-height: 50px;
+  transition: 0.3s;
+  font-size: 18px;
+}
+
+.nav-link {
+  position: relative;
+  padding: 0 12px;
+  text-decoration: none;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 50px;
+  transition: 0.3s;
+  color: aliceblue;
+}
+
+.nav-link:hover {
+  color: #033e8c;
+}
+
+.main {
+  background-color: #eaece0;
+}
+
+.my-photo {
+  margin-bottom: 0;
+}
+
+.container-main {
+  max-width: 1440px;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.section-profile {
+  position: relative;
+  display: flex;
+  width: 100%;
+  padding: 50px 20px 30px;
+}
+
+.section-profile-title {
+  margin-left: 70px;
+
+}
+
+.section-main-title {
+  width: 100%;
+  margin-top: 5px;
+  margin-bottom: 0;
+}
+
+.section-subtitle {
+  display: flex;
+  width: 100%;
+  margin-top: 0;
+}
+
+.section {
+  position: relative;
+  width: 50%;
+}
+
+.section-title {
+  display: flex;
+  font-size: 24px;
+  font-weight: 500;
+  color: #524c57;
+}
+
+.section-text {
+  font-size: 16px;
+  font-weight: 400;
+  color: #130f0f;
+}
+
+.section-contact-item a {
+  color: #6857ff;
+  text-decoration: none;
+  transition: color 0.5s;
+}
+
+.section-item a:hover {
+  color: #4d2323;
+}
+
+.footer {
+  background-color: #0296b8;
+}
+
+.container-footer {
+  max-width: 1440px;
+  margin: 0 auto;
+}
+
+.container-content {
+  display: flex;
+  height: 100px;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.rssl-logo {
+  margin-right: auto;
+  margin-top: 20px;
+  align-items: center;
+  width: 121px;
+  height: 45px;
+}
+
+.nav-link-footer {
+  margin-top: 25px;
+  text-decoration: none;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 50px;
+  transition: 0.3s;
+  color: aliceblue;
+}
+
+.nav-link-footer:hover {
+  color: #033e8c;
+}
+
+.footer-copyrighting {
+font-style: 16px;
+font-weight: 300;
+}
